@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -25,18 +25,18 @@ body {
     position: relative;
     width: 28rem;
     height: 34rem;
-    background: rgba(30, 30, 46, 0.75); /* Base */
+    background: rgba(30, 30, 46, 0.75); 
     border-radius: 10px;
-    box-shadow: 25px 15px 75px rgb(17, 17, 27); /* Crust */
+    box-shadow: 25px 15px 75px rgb(17, 17, 27); 
     padding: 2rem 1rem;
-    border: 3px solid rgb(49, 50, 68); /* Surface0 */
+    border: 3px solid rgb(49, 50, 68); 
     overflow: hidden; 
 }
 
 h1 {
     font-weight: 600;
     text-align: center;
-    color: rgb(205, 214, 244); /* Text */
+    color: rgb(205, 214, 244); 
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
@@ -63,8 +63,8 @@ h2 {
     font-size: 1rem;
     outline: none;
     border-radius: 50px;
-    box-shadow: 2px 3px 5px rgba(17, 17, 27, 1); /* Crust */
-    border: 2px solid #585b70; /* Yellow */
+    box-shadow: 2px 3px 5px rgba(17, 17, 27, 1); 
+    border: 2px solid #585b70; 
 }
 
 #list {
@@ -81,18 +81,18 @@ h2 {
     align-items: center;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
-    background: rgba(69, 71, 90, 0.8); /* Surface1 */
+    background: rgba(69, 71, 90, 0.8); 
     border-radius: 5px;
-    box-shadow: 3px 3px 5px rgba(17, 17, 27, 0.1); /* Crust */
+    box-shadow: 3px 3px 5px rgba(17, 17, 27, 0.1); 
     word-wrap: break-word; 
     font-size: 1rem;
-    color: rgb(205, 214, 244); /* Text */
+    color: rgb(205, 214, 244); 
 }
 
 #list li button {
-    background: #f38ba8; /* Yellow */
+    background: #f38ba8; 
     border: none;
-    color: rgb(30, 30, 46); /* Base */
+    color: rgb(30, 30, 46); 
     font-size: 1.2rem;
     cursor: pointer;
     padding: 0.25rem 0.5rem;
@@ -101,6 +101,6 @@ h2 {
 }
 
 #list li button:hover {
-    background-color: rgb(243, 139, 168); /* Red */
-    color: rgb(17, 17, 27); /* Crust */
+    background-color: rgb(243, 139, 168); 
+    color: rgb(17, 17, 27); 
 }
